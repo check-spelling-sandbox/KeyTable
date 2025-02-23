@@ -816,7 +816,7 @@ $.extend(KeyTable.prototype, {
 			return;
 		}
 
-		// Ignore key presses in an Editor inline create row - it is not navigatable
+		// Ignore key presses in an Editor inline create row - it is not navigable
 		// by KeyTable
 		if ($(e.target).closest('.dte-inlineAdd').length) {
 			return;
