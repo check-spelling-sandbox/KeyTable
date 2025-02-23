@@ -66,9 +66,9 @@ var KeyTable = function (dt, opts) {
 
 	// Check if row reorder has already been initialised on this table
 	var settings = this.s.dt.settings()[0];
-	var exisiting = settings.keytable;
-	if (exisiting) {
-		return exisiting;
+	var existing = settings.keytable;
+	if (existing) {
+		return existing;
 	}
 
 	settings.keytable = this;
